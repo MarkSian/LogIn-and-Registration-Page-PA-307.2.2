@@ -29,29 +29,48 @@ form {
 
 label{
     background-color: #F8F3D9;
+
 }
 input {
     padding: 10px;
     border-radius: 5px;
+    box-shadow: 1px 1px 1px #685b5b;
     border: 1px solid #ccc;
     background-color: #F8F3D9;
 }
 a {
-    text-align: center;
-    text-decoration: none;
+    text-align: left;
+    text-decoration: underline;
     color: #000;
 }
+
+button {
+    padding: 5px;
+    border-radius: 10px;
+    border: 5px solid #504B38;
+    background-color: #685b5b;
+    box-shadow: 1px 1px 1px #685b5b;
+    width: 300px;  
+    color: white;
+    margin-bottom: 10px;  
+    
+}
+
+button:hover {
+    background-color: #504B38;
+    cursor: pointer; 
+}
+
 .submission-form{
     background-color: #F8F3D9;
     border:5px solid #504B38;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #685b5b;
-    padding: 10px
+    padding: 10px;
     
 }
 
 .submission-form input,
-.submission-form button,
 .submission-form a {
     margin-bottom: 10px;
     background-color: #F8F3D9;
