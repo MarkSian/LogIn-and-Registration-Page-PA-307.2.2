@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: #B9B28A;
-
+    font-family: 'Saira Semi Condensed';
 }
 
 
@@ -16,7 +16,7 @@
 }
 
 h1 {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     background-color:#F8F3D9;
 }
 
@@ -44,13 +44,17 @@ a {
     color: #000;
 }
 
+a:hover {
+    color: #B9B28A;
+}
+
 button {
     padding: 5px;
     border-radius: 10px;
     border: 5px solid #504B38;
     background-color: #685b5b;
     box-shadow: 1px 1px 1px #685b5b;
-    width: 300px;  
+    width: 20em;
     color: white;
     margin-bottom: 10px;  
     
@@ -67,13 +71,50 @@ button:hover {
     border-radius: 10px;
     box-shadow: 5px 5px 5px #685b5b;
     padding: 10px;
-    
 }
 
 .submission-form input,
 .submission-form a {
     margin-bottom: 10px;
     background-color: #F8F3D9;
+}
+
+.register-email-field{
+    width: 20em;
+}
+
+.login-email-field {
+    width: 20em;
+}
+
+.password-container {
+    background-color: #F8F3D9;
+    position: relative;
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    flex-direction: row; /* Change direction to row to place items next to each other */
+}
+
+.password-container input {
+    width: 20em;
+}
+
+.password-container svg {
+    background-color: #F8F3D9;
+    width: 16px; /* Keep the current size */
+    height: 16px; /* Keep the current size */
+    margin-left: 10px; /* Add some space between the input and the SVG */
+    cursor: pointer;
+}
+
+.password-container svg:hover {
+    background-color: #EBE5C2;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #B9B28A;
+    width: 20px; /* Keep the current size */
+    height: 20px; /* Keep the current size */
+    margin-left: 10px; /* Add some space between the input and the SVG */
+    cursor: pointer;
 }
 
 .links{
