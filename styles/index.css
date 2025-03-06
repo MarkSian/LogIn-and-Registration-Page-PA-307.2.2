@@ -91,8 +91,8 @@ button:hover {
     background-color: #F8F3D9;
     position: relative;
     display: flex;
-    align-items: center; /* Align items vertically in the center */
-    flex-direction: row; /* Change direction to row to place items next to each other */
+    align-items: center; 
+    flex-direction: row; 
 }
 
 .password-container input {
@@ -101,9 +101,9 @@ button:hover {
 
 .password-container svg {
     background-color: #F8F3D9;
-    width: 16px; /* Keep the current size */
-    height: 16px; /* Keep the current size */
-    margin-left: 10px; /* Add some space between the input and the SVG */
+    width: 16px; 
+    height: 16px;
+    margin-left: 10px; 
     cursor: pointer;
 }
 
@@ -111,9 +111,9 @@ button:hover {
     background-color: #EBE5C2;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #B9B28A;
-    width: 20px; /* Keep the current size */
-    height: 20px; /* Keep the current size */
-    margin-left: 10px; /* Add some space between the input and the SVG */
+    width: 20px; 
+    height: 20px; 
+    margin-left: 10px; 
     cursor: pointer;
 }
 
