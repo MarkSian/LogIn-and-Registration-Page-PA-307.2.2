@@ -10,6 +10,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    
 }
 
 h1 {
@@ -19,5 +20,31 @@ h1 {
 form {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 300px;   
 }
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+a {
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+.submission-form{
+    border:5px solid #504B38;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #685b5b;
+    padding: 10px
+    
+}
+
+.submission-form input,
+.submission-form button,
+.submission-form a {
+    margin-bottom: 10px;
+}
+
+
