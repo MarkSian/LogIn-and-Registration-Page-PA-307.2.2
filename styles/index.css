@@ -2,8 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #F8F3D9;
+    background-color: #B9B28A;
+
 }
+
 
 .container {
     display: flex;
@@ -15,18 +17,24 @@
 
 h1 {
     margin-bottom: 50px;
+    background-color:#F8F3D9;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    width: 300px;   
+    width: 300px;
+    background-color: #F8F3D9;   
 }
 
+label{
+    background-color: #F8F3D9;
+}
 input {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    background-color: #F8F3D9;
 }
 a {
     text-align: center;
@@ -34,6 +42,7 @@ a {
     color: #000;
 }
 .submission-form{
+    background-color: #F8F3D9;
     border:5px solid #504B38;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #685b5b;
@@ -45,6 +54,13 @@ a {
 .submission-form button,
 .submission-form a {
     margin-bottom: 10px;
+    background-color: #F8F3D9;
 }
 
+.links{
+    display: flex;
+    flex-direction: column;
+    background-color: #F8F3D9;
+
+}
 
